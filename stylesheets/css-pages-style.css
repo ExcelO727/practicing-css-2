@@ -1,5 +1,5 @@
 body {
-	background-color: #e0ffff;
+  background-color: #e0ffff;
   color: black;
 }
 
@@ -7,6 +7,9 @@ h1 {
   text-align: center;
   font-weight: bolder;
   font-size: 40px;
+  border-color: midnightblue;
+  border-style: dotted;
+  border-width: thick;
 }
 
 p {
