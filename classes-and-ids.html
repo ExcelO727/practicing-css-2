@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS | Internal</title>
+    <style>
+      body {
+        background-color: #e0ffff;
+        color: black;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bolder;
+      }
+
+      p {
+        color: midnightblue;
+        font-size: 24px;
+        text-align: left;
+        font-weight: bold;
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      h2 {
+        color: darkmagenta;
+        background-color: khaki;
+        font-style: italic;
+        display: inline-block;
+      }
+
+      nav {
+        text-align: center;
+      }
+
+      nav li:hover > a {
+        background-color: black;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      li {
+        font-size: 20px;
+        display: inline;
+        margin-right: 10px;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .styled-by-id {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-weight: bold;
+      }
+
+      .nav-link {
+        padding: 5px;
+        margin: 4px;
+        border: 2px;
+        border-color: black;
+        border-style: solid;
+        background-color: #191970;
+        color: #f5f5ff;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a class="nav-link" href="index.html">Inline CSS</a></li>
+        <li><a class="nav-link" href="internal-css.html">Internal CSS</a></li>
+        <li><a class="nav-link" href="external-css.html">External CSS</a></li>
+        <li>
+          <a class="nav-link" href="texting-cascading.html"
+            >Text Cascading Page</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="classes-and-ids.html">Classes and IDs</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Classes and IDs</h1>
+      <p>Class: Web Development</p>
+      <p>Name: Excel</p>
+
+      <p>This page shows the effect of classes and ids CSS.</p>
+      <p>This page will also be explaining how to use classes and ids.</p>
+
+      <br />
+
+      <p id="styled-by-id">
+        This paragraph will show the effect of giving an element an ID and
+        styling that ID.
+      </p>
+    </main>
+  </body>
+</html>
