@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Backgrounds and text</title>
+    <style>
+      body {
+        color: #291541;
+        font-size: 20px;
+        margin: 5% 10%;
+      }
+      h1 {
+        text-align: center;
+        font-size: 48px;
+      }
+      section p {
+        font-weight: bold;
+      }
+      #relative {
+        position: relative;
+
+        height: 700px;
+      }
+      #absolute {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+      }
+      section {
+        background-color: whitesmoke;
+        padding: 10px 5px;
+      }
+      section p {
+        padding: 0px;
+      }
+      section img {
+        position: absolute;
+        bottom: 0;
+        right: 50%;
+        transform: translateX(50%);
+      }
+      ul {
+        list-style: none;
+      }
+      li {
+        font-size: 20px;
+        display: inline;
+        margin-right: 10px;
+      }
+      a:hover {
+        background-color: #f5f5ff;
+        color: #844915;
+      }
+      nav {
+        background-color: whitesmoke;
+        margin: 0px;
+        padding: 8px;
+        resize: both;
+        overflow: auto;
+        width: calc(100% -16px);
+      }
+      nav ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+      }
+      nav li {
+        float: left;
+        display: block;
+      }
+      nav a {
+        padding: 5px;
+        margin: 4px;
+        border: 2px;
+        border-style: solid;
+        color: #2a2a2a;
+      }
+      a:visited {
+        font-weight: bolder;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a class="nav-link" href="index.html">Inline CSS</a></li>
+        <li><a class="nav-link" href="internal-css.html">Internal CSS</a></li>
+        <li><a class="nav-link" href="external-css.html">External CSS</a></li>
+        <li>
+          <a class="nav-link" href="texting-cascading.html"
+            >Text Cascading Page</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="classes-and-ids.html">Classes and IDs</a>
+        </li>
+        <li>
+          <a class="nav-link" href="backgrounds-and-text.html"
+            >Backgrounds and Text</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="floating-and-positioning.html"
+            >Floating and positioning</a
+          >
+        </li>
+        <li><a class="nav-link" href="transforms.html">Transforms</a></li>
+        <li>
+          <a class="nav-link" href="gradient-practice.html"
+            >Gradient Practice</a
+          >
+        </li>
+        <li><a class="nav-link" href="div-and-span.html">Divs and spans</a></li>
+        <li>
+          <a class="nav-link" href="practice-website.html">Practice Website</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Backgrounds and Text</h1>
+      <p>This is a backgrounds and text HTML web page</p>
+      <p>This course is called Web Development II</p>
+      <section id="relative">
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          dictum lacus mollis, rutrum velit vitae, pretium sapien. Sed placerat
+          et tortor sit amet lacinia. Nullam diam sapien, elementum a arcu et,
+          semper imperdiet diam. Proin vitae elit aliquet, ultricies lacus nec,
+          posuere enim. Aenean finibus erat et est euismod, ut suscipit lorem
+          dictum. Etiam vitae imperdiet nulla. Vestibulum vitae eros nibh. Proin
+          neque lectus, ultrices eu ex quis, venenatis elementum elit. Curabitur
+          vel enim velit. Nunc eu tempor urna. Morbi ac urna vitae erat euismod
+          ultricies. Praesent sit amet lorem tellus. Nulla facilisi. Aenean
+          dignissim in nulla vitae accumsan. Curabitur vulputate, odio a aliquam
+          rutrum, purus neque gravida purus, vitae sollicitudin lacus sem at
+          est. Sed sollicitudin lorem ex, eget rhoncus erat malesuada sit amet.
+          Sed nibh quam, imperdiet non ipsum ut, laoreet venenatis nunc. Ut id
+          consequat est. Curabitur cursus orci ut erat gravida, sed rhoncus dui
+          venenatis. Cras dapibus tortor quis dapibus iaculis. Aenean ornare
+          viverra massa, nec hendrerit erat ultricies ac. Sed fermentum
+          convallis commodo. Quisque a fermentum eros. Pellentesque habitant
+          morbi tristique senectus et netus et malesuada fames ac turpis
+          egestas.
+        </p>
+        <p id="absolute">This is an absolute paragraph.</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          dictum lacus mollis, rutrum velit vitae, pretium sapien. Sed placerat
+          et tortor sit amet lacinia. Nullam diam sapien, elementum a arcu et,
+          semper imperdiet diam. Proin vitae elit aliquet, ultricies lacus nec,
+          posuere enim. Aenean finibus erat et est euismod, ut suscipit lorem
+          dictum. Etiam vitae imperdiet nulla. Vestibulum vitae eros nibh. Proin
+          neque lectus, ultrices eu ex quis, venenatis elementum elit. Curabitur
+          vel enim velit. Nunc eu tempor urna. Morbi ac urna vitae erat euismod
+          ultricies. Praesent sit amet lorem tellus. Nulla facilisi. Aenean
+          dignissim in nulla vitae accumsan. Curabitur vulputate, odio a aliquam
+          rutrum, purus neque gravida purus, vitae sollicitudin lacus sem at
+          est. Sed sollicitudin lorem ex, eget rhoncus erat malesuada sit amet.
+          Sed nibh quam, imperdiet non ipsum ut, laoreet venenatis nunc. Ut id
+          consequat est. Curabitur cursus orci ut erat gravida, sed rhoncus dui
+          venenatis. Cras dapibus tortor quis dapibus iaculis. Aenean ornare
+          viverra massa, nec hendrerit erat ultricies ac. Sed fermentum
+          convallis commodo. Quisque a fermentum eros. Pellentesque habitant
+          morbi tristique senectus et netus et malesuada fames ac turpis
+          egestas.
+        </p>
+        <img src="images/dog image.png" width="200px" />
+      </section>
+    </main>
+  </body>
+</html>
